@@ -19,12 +19,12 @@ https://tlgrm.ru/docs/api/obtaining_api_id
 
 ![image](https://user-images.githubusercontent.com/63918733/133865943-5ed09383-3c55-4852-9060-d86620d9c145.png)
 
-##### Запускаем скрипт invite_chat.py
+##### Запускаем скрипт get_session.py
 ```python
 # Версия Python 3.9
 # Запуск скрипта Windows
 
-py invite_chat.py
+py get_session.py
 ```
 
 После нужно пройти авторизацию, 1 написан номер, его и вводим в поле "Enter phone number or bot token"
@@ -41,3 +41,16 @@ py invite_chat.py
 py pars_user.py название чата
 ```
 После как он спарсит участников, они появятся в файле data/group_list.text
+
+# Запуск инвайтов
+После как все было настроено, можно запустить скрипт инвайтинга
+```python
+# Версия Python 3.9
+# Запуск скрипта Windows
+
+py invite_chat.py
+```
+# Прокси
+Открываем файл data/proxy.txt и вписываем мобильную проксю
+
+![image](https://user-images.githubusercontent.com/63918733/140406299-87331558-4023-4c94-8dac-c18765dbb4ad.png)
